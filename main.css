@@ -1,0 +1,60 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: white;
+  display: inline;
+}
+h2 {
+  color: white;
+  display: inline;
+}
+
+p {
+  color: red;
+  margin: 50px;
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+.top {
+    background: #327a6f;
+}
+a {
+    color: white;
+}
+
+.topright {
+    display: inline;
+    align-items: flex-end;
+}
+.topleft {
+    display: inline;
+}
+img {
+    width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
